@@ -1,0 +1,32 @@
+.compareContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: var(--background-color, #f8f9fa);
+  }
+  
+  .countryDetail {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .countryDetail img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .countryDetail h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .countryDetail p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  

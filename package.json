@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "jest --watchAll",
+    "test:ci": "jest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/mocha": "^10.0.7",
     "axios": "^1.7.7",
     "next": "14.2.7",
     "react": "^18",
@@ -28,5 +32,8 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
   }
 }

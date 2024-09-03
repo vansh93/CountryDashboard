@@ -1,4 +1,3 @@
-// src/hooks/useFetchCountries.ts
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Country } from '../types/country';

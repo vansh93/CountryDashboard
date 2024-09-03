@@ -1,0 +1,38 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--background-color, #f8f9fa);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .detail img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .detail h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--primary-color, #333);
+  }
+  
+  .detail p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: var(--text-color, #555);
+  }
+  
+  .detail strong {
+    font-weight: bold;
+    color: var(--primary-color, #333);
+  }
+  

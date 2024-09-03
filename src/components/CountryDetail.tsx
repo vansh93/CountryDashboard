@@ -1,7 +1,8 @@
-// src/components/CountryDetail.tsx
+"use client";
+
 import React from 'react';
 import { Country } from '../types/country';
-import styles from '../styles/CountryDetail.module.css';
+import styles from '../styles/CountryDetails.module.css';
 
 interface CountryDetailProps {
   country: Country;
